@@ -57,7 +57,7 @@ const App: React.FC = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer ${process.env.EXPO_PUBLIC_OPENAI_API_KEY}`,
           },
         }
       );
